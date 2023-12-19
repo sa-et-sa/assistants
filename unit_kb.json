@@ -1,0 +1,63 @@
+{
+    "id": "unit_kb",
+    "icon": {
+        "name": "keyboardVariant"
+    },
+    "name": {
+        "fr": "Clavier d'unités de mesure",
+        "en": "Keyboard of units of measure",
+        "es": "Teclado de unidades de medida"
+    },
+    "fields": [
+        {
+            "id": "volume",
+            "fieldType": "volume",
+            "label": {
+                "fr": "Volume"
+            },
+            "question": {
+                "fr": "Un clavier pour les unités de volume"
+            }
+        },
+        {
+            "id": "longDistance",
+            "fieldType": "longDistance",
+            "label": {
+                "fr": "Distance longue"
+            },
+            "question": {
+                "fr": "Un clavier pour les unités de distance longue"
+            }
+        },
+        {
+            "id": "shortDistance",
+            "fieldType": "shortDistance",
+            "label": {
+                "fr": "Distance courte"
+            },
+            "question": {
+                "fr": "Un clavier pour les unités de distance courte"
+            }
+        },
+        {
+            "id": "temperature",
+            "fieldType": "temperature",
+            "label": {
+                "fr": "Température"
+            },
+            "question": {
+                "fr": "Un clavier pour les unités de température"
+            }
+        },
+        {
+            "id": "mass",
+            "fieldType": "mass",
+            "label": {
+                "fr": "Masse"
+            },
+            "question": {
+                "fr": "Un clavier pour les unités de masse"
+            }
+        }
+    ]
+}
