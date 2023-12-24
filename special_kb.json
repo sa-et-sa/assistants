@@ -1,0 +1,45 @@
+{
+    "id": "special_kb",
+    "icon": {
+        "name": "keyboardVariant"
+    },
+    "name": {
+        "fr": "Claviers spéciaux (code barre, localisation, icône)",
+        "en": "Special keyboards (barcode, location, icon)",
+        "es": "Teclados especiales (código de barras, localización, icono)"
+
+    },
+    "fields": [
+        {
+            "id": "barcode",
+            "fieldType": "barcode",
+            "label": {
+                "fr": "Code barre"
+            },
+            "question": {
+                "fr": "Un clavier pour les codes barres"
+            }
+        },
+        {
+            "id": "location",
+            "fieldType": "location",
+            "label": {
+                "fr": "Localisation"
+            },
+            "question": {
+                "fr": "Un clavier pour la localisation"
+            }
+        },
+        {
+            "id": "icon",
+            "fieldType": "icon",
+            "modifier": "category",
+            "label": {
+                "fr": "Icône"
+            },
+            "question": {
+                "fr": "Un clavier pour les icônes"
+            }
+        }        
+    ]
+}

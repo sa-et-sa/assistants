@@ -1,0 +1,41 @@
+{
+    "id": "maple_syrup",
+    "icon": {
+        "name": "leafMaple"
+    },
+    "name": {
+        "fr": "Baril de sirop d'érable"
+    },
+    "fields": [
+        {
+            "id": "batches",
+            "fieldType": "conversation",
+            "assistantClearOnComplete": true,
+            "linkedAssistant": {
+                "assistantId": "maple_batch",
+                "outputFormat": {
+                    "fr": "{volume} de sirop d'érable avec luminance {luminance}.",
+                    "en": "{volume} of maple syrup with luminance {luminance}.",
+                    "es": "{volume} de jarabe de arce con luminancia {luminance}."
+                }
+            },
+            "answer": {
+                "answerType": "array",
+                "addToArrayMessage": {
+                    "fr": "Ajouter un lot.",
+                    "en": "Add a batch.",
+                    "es": "Añadir un lote."
+                },
+                "addToArrayIcon": {
+                    "name": "databaseImportOutline"
+                }
+            },
+            "label": {
+                "fr": "Lots de production"
+            },
+            "question": {
+                "fr": "Quels sont les lots dans ce baril ?"
+            }
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "id": "test_kb",
+    "version": "0.0.5",
+    "mode": "form",
+    "icon": {
+        "name": "keyboardVariant"
+    },
+    "name": {
+        "fr": "Test claviers",
+        "en": "Test keyboards",
+        "es": "Prueba de teclados"
+    },
+    "fields": [
+        {
+            "id": "yesno",
+            "fieldType": "yesno",
+            "label": {
+                "fr": "yesno"
+            },
+            "question": {
+                "fr": "yesno"
+            }
+        },
+        {
+            "id": "understood",
+            "fieldType": "understood",
+            "label": {
+                "fr": "understood"
+            },
+            "question": {
+                "fr": "understood"
+            }
+        },
+        {
+            "id": "text",
+            "fieldType": "text",
+            "label": {
+                "fr": "text"
+            },
+            "question": {
+                "fr": "text"
+            }
+        },
+        {
+            "id": "l10n",
+            "fieldType": "l10n",
+            "label": {
+                "fr": "l10n"
+            },
+            "question": {
+                "fr": "l10n"
+            }
+        },
+        {
+            "id": "integer",
+            "fieldType": "integer",
+            "label": {
+                "fr": "integer"
+            },
+            "question": {
+                "fr": "integer"
+            }
+        },
+        {
+            "id": "luminance",
+            "fieldType": "luminance",
+            "label": {
+                "fr": "luminance"
+            },
+            "question": {
+                "fr": "luminance"
+            }
+        },
+        {
+            "id": "luminance_integer",
+            "fieldType": "luminance",
+            "keyboardType": "integerNumber",
+            "answer": {
+                "numberValidation": {
+                    "min": 1,
+                    "max": 100,
+                    "precision": 1
+                }
+            },            
+            "label": {
+                "fr": "luminance_integer"
+            },
+            "question": {
+                "fr": "luminance_integer"
+            }
+        },
+        {
+            "id": "integer_luminance",
+            "fieldType": "integer",
+            "keyboardType": "luminance",
+            "label": {
+                "fr": "integer_luminance"
+            },
+            "question": {
+                "fr": "integer_luminance"
+            }
+        }
+    ]
+}

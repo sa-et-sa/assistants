@@ -1,0 +1,40 @@
+{
+    "id": "field",
+    "icon": {
+        "name": "database"
+    },
+    "name": {
+        "fr": "Créateur de données",
+        "en": "Data creator",
+        "es": "Creador de datos"
+    },
+    "fields": [
+        {
+            "id": "label",
+            "fieldType": "l10n",
+            "label": {
+                "fr": "Nom de la donnée"
+            },
+            "question": {
+                "fr": "Quel est le nom de votre donnée ?"
+            },
+            "justification": {
+                "fr": "Le libellé de la donnée sert à identifier la donnée dans l'assistant."
+            }
+        },
+        {
+            "id": "fieldType",
+            "fieldType": "fieldTypeChoices",
+            "modifier": "category",
+            "label": {
+                "fr": "Type de donnée"
+            },
+            "question": {
+                "fr": "Quelle est le type de votre donnée ?"
+            },
+            "justification": {
+                "fr": "Le type de donnée permet de définir le format de la donnée et les contraintes de saisie."
+            }
+        }     
+    ]
+}

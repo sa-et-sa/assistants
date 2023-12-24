@@ -1,0 +1,67 @@
+{
+    "id": "keyboards",
+    "version": "0.0.2",
+    "mode": "form",
+    "icon": {
+        "name": "keyboardVariant"
+    },
+    "name": {
+        "fr": "Claviers",
+        "en": "Keyboards",
+        "es": "Teclados"
+    },
+    "fields": [
+        {
+            "id": "test_kb",
+            "fieldType": "conversation",
+            "linkedAssistant": {
+                "assistantId": "test_kb"
+            },
+            "label": {
+                "fr": "Claviers de test"
+            },
+            "question": {
+                "fr": "Tapez ici pour afficher les autres claviers de test."
+            }
+        },
+        {
+            "id": "date_kb",
+            "fieldType": "conversation",
+            "linkedAssistant": {
+                "assistantId": "date_kb"
+            },
+            "label": {
+                "fr": "Claviers de date"
+            },
+            "question": {
+                "fr": "Tapez ici pour afficher les claviers de date:\n- Date\n- Heure\n- Date et heure."
+            }
+        },
+        {
+            "id": "special_kb",
+            "fieldType": "conversation",
+            "linkedAssistant": {
+                "assistantId": "special_kb"
+            },
+            "label": {
+                "fr": "Claviers spéciaux"
+            },
+            "question": {
+                "fr": "Tapez ici pour afficher les claviers spéciaux:\n- Code barre\n- Localisation\n- Icônes."
+            }
+        },
+        {
+            "id": "unit_kb",
+            "fieldType": "conversation",
+            "linkedAssistant": {
+                "assistantId": "unit_kb"
+            },
+            "label": {
+                "fr": "Claviers d'unités"
+            },
+            "question": {
+                "fr": "Tapez ici pour afficher les claviers d'unités:\n- Volume\n- Distances\n- Température\n- Masse."
+            }
+        }
+    ]
+}

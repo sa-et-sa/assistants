@@ -1,6 +1,5 @@
 {
     "id": "unit_kb",
-    "version": "0.0.2",
     "icon": {
         "name": "keyboardVariant"
     },
@@ -59,7 +58,6 @@
             "question": {
                 "fr": "Un clavier pour les unités de masse"
             }
-        }
+        }      
     ]
-} 
-
+}

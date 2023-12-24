@@ -1,0 +1,43 @@
+{
+    "id": "date_kb",
+    "icon": {
+        "name": "calendarTodayOutline"
+    },
+    "name": {
+        "fr": "Clavier de dates et heures",
+        "en": "Date and time keyboard",
+        "es": "Teclado de fechas y horas"
+    },
+    "fields": [
+        {
+            "id": "date",
+            "fieldType": "date",
+            "label": {
+                "fr": "Date"
+            },
+            "question": {
+                "fr": "Un clavier de date"
+            }
+        },
+        {
+            "id": "time",
+            "fieldType": "time",
+            "label": {
+                "fr": "Heure"
+            },
+            "question": {
+                "fr": "Un clavier d'heure"
+            }
+        },
+        {
+            "id": "dateTime",
+            "fieldType": "dateTime",
+            "label": {
+                "fr": "Date et heure"
+            },
+            "question": {
+                "fr": "Un clavier de date et d'heure"
+            }
+        }      
+    ]
+}

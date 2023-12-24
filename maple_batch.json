@@ -1,0 +1,31 @@
+{
+    "id": "maple_batch",
+    "icon": {
+        "name": "cupWater"
+    },
+    "name": {
+        "fr": "Lot de production"
+    },
+    "fields": [
+        {
+            "id": "volume",
+            "fieldType": "volume",
+            "label": {
+                "fr": "Volume"
+            },
+            "question": {
+                "fr": "Volume du lot"
+            }
+        },
+        {
+            "id": "luminance",
+            "fieldType": "luminance",
+            "label": {
+                "fr": "Luminance"
+            },
+            "question": {
+                "fr": "Quelle est la luminance ?"
+            }
+        }
+    ]
+}

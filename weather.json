@@ -1,0 +1,23 @@
+{
+    "id": "weather",
+    "icon": {
+        "name": "weatherSunset "
+    },
+    "name": {
+        "fr": "Assistant météo",
+        "en": "Weather assistant",
+        "es": "Asistente de clima"
+    },
+    "fields": [
+        {
+            "id": "temperature",
+            "fieldType": "temperature",
+            "label": {
+                "fr": "Température"
+            },
+            "question": {
+                "fr": "Une température"
+            }
+        }
+    ]
+}
