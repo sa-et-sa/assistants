@@ -1,7 +1,7 @@
 # Exemple
 
 - langue: fr
-- version: 0.0.1
+- version: 0.0.2
 - icône: informationOutline
 - en: Example
 - es: Ejemplo
@@ -14,14 +14,19 @@
 
 ## Valeurs
 
-### Première valeur
+### Confirmation
 
 - référence: valeurs/exemple/confirmer
 
-### Deuxième valeur
+### Passer
 
 - référence: valeurs/exemple/passer
 - obligatoire: false
+
+### Texte
+
+- référence: valeurs/exemple/texte
+- obligatoire: true
 
 ## Conclusion
 
